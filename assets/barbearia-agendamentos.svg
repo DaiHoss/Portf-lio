@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 650" font-family="'Segoe UI', Arial, sans-serif">
+  <rect width="900" height="650" fill="#12172a"/>
+
+  <!-- Top bar -->
+  <rect x="0" y="0" width="900" height="56" fill="#1f2738"/>
+  <rect x="20" y="16" width="24" height="24" rx="6" fill="#f2a154"/>
+  <text x="54" y="33" font-size="18" font-weight="700" fill="#e8ecf4">BarberApp</text>
+  <circle cx="854" cy="28" r="14" fill="#3a4560"/>
+  <text x="824" y="33" font-size="13" fill="#8a93ab" text-anchor="end">Diego</text>
+
+  <!-- Sidebar -->
+  <rect x="0" y="56" width="200" height="594" fill="#1a2030"/>
+  <line x1="200" y1="56" x2="200" y2="650" stroke="#2a3348" stroke-width="1"/>
+
+  <rect x="0" y="80" width="4" height="40" fill="#f2a154"/>
+  <text x="32" y="105" font-size="14" font-weight="700" fill="#f2a154">Agendamentos</text>
+
+  <text x="32" y="157" font-size="14" fill="#8a93ab">Clientes</text>
+  <text x="32" y="209" font-size="14" fill="#8a93ab">Serviços</text>
+  <text x="32" y="261" font-size="14" fill="#8a93ab">Barbeiros</text>
+  <text x="32" y="313" font-size="14" fill="#8a93ab">Relatórios</text>
+
+  <!-- Header -->
+  <text x="232" y="112" font-size="24" font-weight="700" fill="#e8ecf4">Agendamentos de Hoje</text>
+  <text x="232" y="136" font-size="14" fill="#8a93ab">Terça-feira, 23 de setembro</text>
+
+  <rect x="700" y="90" width="168" height="40" rx="20" fill="#f2a154"/>
+  <text x="784" y="115" font-size="13" font-weight="700" fill="#161c2b" text-anchor="middle">+ Novo Agendamento</text>
+
+  <!-- Rows -->
+  <!-- Row 1 -->
+  <rect x="232" y="170" width="636" height="72" rx="14" fill="#1a2030" stroke="#2a3348"/>
+  <text x="256" y="212" font-size="18" font-weight="700" fill="#f2a154">09:00</text>
+  <line x1="330" y1="186" x2="330" y2="226" stroke="#2a3348"/>
+  <text x="352" y="200" font-size="15" font-weight="600" fill="#e8ecf4">Carlos Eduardo</text>
+  <text x="352" y="220" font-size="12" fill="#8a93ab">Corte + Barba</text>
+  <text x="640" y="212" font-size="13" fill="#8a93ab" text-anchor="middle">Diego</text>
+  <rect x="760" y="192" width="96" height="28" rx="14" fill="#34d399" fill-opacity="0.15" stroke="#34d399"/>
+  <text x="808" y="210" font-size="12" font-weight="700" fill="#34d399" text-anchor="middle">Confirmado</text>
+
+  <!-- Row 2 -->
+  <rect x="232" y="256" width="636" height="72" rx="14" fill="#1a2030" stroke="#2a3348"/>
+  <text x="256" y="298" font-size="18" font-weight="700" fill="#f2a154">09:45</text>
+  <line x1="330" y1="272" x2="330" y2="312" stroke="#2a3348"/>
+  <text x="352" y="286" font-size="15" font-weight="600" fill="#e8ecf4">Marcos Silva</text>
+  <text x="352" y="306" font-size="12" fill="#8a93ab">Corte Masculino</text>
+  <text x="640" y="298" font-size="13" fill="#8a93ab" text-anchor="middle">Diego</text>
+  <rect x="760" y="278" width="96" height="28" rx="14" fill="#34d399" fill-opacity="0.15" stroke="#34d399"/>
+  <text x="808" y="296" font-size="12" font-weight="700" fill="#34d399" text-anchor="middle">Confirmado</text>
+
+  <!-- Row 3 -->
+  <rect x="232" y="342" width="636" height="72" rx="14" fill="#1a2030" stroke="#2a3348"/>
+  <text x="256" y="384" font-size="18" font-weight="700" fill="#f2a154">10:30</text>
+  <line x1="330" y1="358" x2="330" y2="398" stroke="#2a3348"/>
+  <text x="352" y="372" font-size="15" font-weight="600" fill="#e8ecf4">Pedro Henrique</text>
+  <text x="352" y="392" font-size="12" fill="#8a93ab">Barba</text>
+  <text x="640" y="384" font-size="13" fill="#8a93ab" text-anchor="middle">Lucas</text>
+  <rect x="760" y="364" width="96" height="28" rx="14" fill="#fbbf24" fill-opacity="0.15" stroke="#fbbf24"/>
+  <text x="808" y="382" font-size="12" font-weight="700" fill="#fbbf24" text-anchor="middle">Pendente</text>
+
+  <!-- Row 4 -->
+  <rect x="232" y="428" width="636" height="72" rx="14" fill="#1a2030" stroke="#2a3348"/>
+  <text x="256" y="470" font-size="18" font-weight="700" fill="#f2a154">11:00</text>
+  <line x1="330" y1="444" x2="330" y2="484" stroke="#2a3348"/>
+  <text x="352" y="458" font-size="15" font-weight="600" fill="#e8ecf4">Rafael Souza</text>
+  <text x="352" y="478" font-size="12" fill="#8a93ab">Corte + Sobrancelha</text>
+  <text x="640" y="470" font-size="13" fill="#8a93ab" text-anchor="middle">Diego</text>
+  <rect x="760" y="450" width="96" height="28" rx="14" fill="#34d399" fill-opacity="0.15" stroke="#34d399"/>
+  <text x="808" y="468" font-size="12" font-weight="700" fill="#34d399" text-anchor="middle">Confirmado</text>
+
+  <!-- Row 5 -->
+  <rect x="232" y="514" width="636" height="72" rx="14" fill="#1a2030" stroke="#2a3348"/>
+  <text x="256" y="556" font-size="18" font-weight="700" fill="#f2a154">14:00</text>
+  <line x1="330" y1="530" x2="330" y2="570" stroke="#2a3348"/>
+  <text x="352" y="544" font-size="15" font-weight="600" fill="#e8ecf4">João Vitor</text>
+  <text x="352" y="564" font-size="12" fill="#8a93ab">Corte Masculino</text>
+  <text x="640" y="556" font-size="13" fill="#8a93ab" text-anchor="middle">Lucas</text>
+  <rect x="760" y="536" width="96" height="28" rx="14" fill="#fbbf24" fill-opacity="0.15" stroke="#fbbf24"/>
+  <text x="808" y="554" font-size="12" font-weight="700" fill="#fbbf24" text-anchor="middle">Pendente</text>
+</svg>

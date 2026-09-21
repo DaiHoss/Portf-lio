@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Portfólio de Daiane Duarte — Estudante de Tecnologia da Informação, com projetos em banco de dados, Python, desenvolvimento web e o jogo 2D MotionVerse." />
+  <title>Portfólio – Daiane Duarte</title>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=DM+Serif+Display:ital@0;1&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<div class="scroll-progress"><div class="scroll-progress-bar" id="scrollProgressBar"></div></div>
+
+<button class="back-to-top" id="backToTop" aria-label="Voltar ao topo">↑</button>
+
+<div class="bg-blob blob-1" id="blob1"></div>
+<div class="bg-blob blob-2" id="blob2"></div>
+<div class="bg-blob blob-3" id="blob3"></div>
+<div class="bg-blob blob-4" id="blob4"></div>
+<div class="bg-blob blob-5" id="blob5"></div>
+
+<div class="bg-grid"></div>
+<div class="bg-particles" id="bgParticles"></div>
+<div class="bg-shapes" id="bgShapes">
+  <div class="shape shape-square"  style="top:8%;  left:4%;"></div>
+  <div class="shape shape-circle"  style="top:22%; left:90%;"></div>
+  <div class="shape shape-triangle" style="top:38%; left:6%;"></div>
+  <div class="shape shape-ring"    style="top:52%; left:92%;"></div>
+  <div class="shape shape-plus"    style="top:66%; left:3%;"></div>
+  <div class="shape shape-square"  style="top:78%; left:88%;"></div>
+  <div class="shape shape-circle"  style="top:90%; left:7%;"></div>
+  <div class="shape shape-triangle" style="top:12%; left:94%;"></div>
+  <div class="shape shape-plus"    style="top:45%; left:1%;"></div>
+  <div class="shape shape-ring"    style="top:95%; left:93%;"></div>
+</div>
+
+<div class="wrapper">
+
+  <!-- ══ HERO ══ -->
+  <header>
+    <div class="avatar-ring">
+      <img src="assets/daiane.jpg.JPG" alt="Foto de Daiane" />
+    </div>
+    <h1>Daiane Duarte</h1>
+    <p class="subtitle">Estudante de Tecnologia da Informação</p>
+    <p class="tagline">Transformo ideias em produtos reais — de jogos interativos a soluções de saúde que já estão sendo validadas com usuários de verdade.</p>
+
+    <div class="hero-badges">
+      <span class="hero-badge">🎓 Técnico em Informática — SENAC SP</span>
+      <span class="hero-badge">🚀 Empreenda Senac 2026 · Semifinalista</span>
+      <span class="hero-badge hero-badge--available"><span class="dot"></span> Aberta a oportunidades / estágio</span>
+    </div>
+
+    <!-- Links sociais -->
+    <div class="social-links">
+      <a href="https://github.com/DaiHoss" target="_blank" class="social-btn">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5C5.73.5.5 5.73.5 12c0 5.09 3.29 9.4 7.86 10.93.58.1.79-.25.79-.56 0-.28-.01-1.02-.02-2-3.2.7-3.88-1.54-3.88-1.54-.53-1.34-1.29-1.7-1.29-1.7-1.05-.72.08-.71.08-.71 1.17.08 1.78 1.2 1.78 1.2 1.03 1.77 2.71 1.26 3.37.96.1-.75.4-1.26.73-1.55-2.55-.29-5.24-1.28-5.24-5.7 0-1.26.45-2.29 1.19-3.09-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.18 1.18a11.05 11.05 0 0 1 5.79 0c2.2-1.49 3.17-1.18 3.17-1.18.64 1.59.24 2.76.12 3.05.74.8 1.19 1.83 1.19 3.09 0 4.43-2.7 5.4-5.27 5.69.42.36.78 1.08.78 2.18 0 1.57-.02 2.84-.02 3.23 0 .31.21.67.8.56A10.52 10.52 0 0 0 23.5 12c0-6.27-5.23-11.5-11.5-11.5Z"/></svg>
+        <span>GitHub</span>
+      </a>
+      <a href="https://www.linkedin.com/in/daiane-duarte-24b2003ba/" target="_blank" class="social-btn">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M20.45 20.45h-3.55v-5.57c0-1.33-.02-3.04-1.85-3.04-1.86 0-2.14 1.45-2.14 2.94v5.67H9.36V9h3.41v1.56h.05c.47-.9 1.63-1.85 3.36-1.85 3.6 0 4.27 2.37 4.27 5.45v6.29ZM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12ZM7.12 20.45H3.56V9h3.56v11.45Z"/></svg>
+        <span>LinkedIn</span>
+      </a>
+      <a href="mailto:duartedaiane458@gmail.com" class="social-btn">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M2 5.5A2.5 2.5 0 0 1 4.5 3h15A2.5 2.5 0 0 1 22 5.5v13a2.5 2.5 0 0 1-2.5 2.5h-15A2.5 2.5 0 0 1 2 18.5v-13Zm2.2.5 7.3 6.1a1 1 0 0 0 1 .0l7.3-6.1H4.2Zm15.8 1.6-7.06 5.9a2.5 2.5 0 0 1-3.28 0L4.6 7.6v10.9c0 .28.22.5.5.5h15a.5.5 0 0 0 .5-.5V7.6Z"/></svg>
+        <span>E-mail</span>
+      </a>
+    </div>
+
+    <button type="button" class="download-btn" id="downloadCvBtn">
+      <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v12"/><path d="m7 10 5 5 5-5"/><path d="M5 21h14"/></svg>
+      <span>Baixar Currículo em PDF</span>
+    </button>
+
+      <!-- Contatos rápidos -->
+    <div class="contact-bar">
+      <span class="contact-item">São Paulo, SP – Brasil</span>
+      <span class="contact-item">duartedaiane458@gmail.com</span>
+    </div>
+
+    <div class="scroll-cue" id="scrollCue"><span></span></div>
+  </header>
+
+  <div class="divider"></div>
+
+  <!-- ══ SOBRE ══ -->
+  <section>
+    <div class="section-label reveal">Sobre mim</div>
+    <div class="card reveal delay-1">
+      <p>Estudante de Tecnologia da Informação no SENAC SP, com foco em desenvolvimento de banco de dados relacionais e aplicações práticas. Tenho experiência em MySQL, Python e desenvolvimento web (HTML, CSS e JavaScript), e busco aplicar conhecimentos técnicos em projetos reais que gerem impacto — de apps de agendamento a experiências interativas, como o jogo MotionVerse. Atualmente participo do Empreenda Senac com o BioShield, um projeto de empreendedorismo em fase semifinal, onde atuo na pesquisa de campo, modelagem de negócio e front-end. Estou sempre aprendendo novas ferramentas e aprimorando habilidades para me tornar uma desenvolvedora completa.</p>
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- ══ PROJETOS ══ -->
+  <section>
+    <div class="section-label reveal">Projetos em Destaque</div>
+
+    <div class="projects-grid">
+    <div class="project-card project-card--featured reveal delay-1">
+      <span class="project-badge">Projeto Final do Curso</span>
+      <div class="project-image-wrap">
+        <div class="project-gallery">
+          <img src="assets/motionverse-site.png" alt="Landing page do site do jogo MotionVerse" loading="lazy">
+          <img src="assets/motionverse-jogo.png" alt="Menu principal do jogo MotionVerse, em pixel art" loading="lazy">
+          <img src="assets/motionverse-equipe.png" alt="Tela de apresentação da equipe do MotionVerse" loading="lazy">
+        </div>
+      </div>
+      <div class="project-meta">
+        <div class="project-name">MotionVerse — Jogo 2D com Movimentação por Câmera (IA)</div>
+        <div class="project-role">Projeto Final · Técnico em Informática (SENAC SP) · Front-End &amp; Criação de Personagens</div>
+      </div>
+      <p class="project-desc">
+        Projeto final do curso Técnico em Informática, desenvolvido em equipe com professor e treze alunos. MotionVerse é um jogo 2D em pixel art no qual Clara, a protagonista, é puxada para dentro do computador e precisa desvendar os mistérios desse mundo para conseguir voltar à realidade — com o diferencial de que a movimentação da personagem é controlada por reconhecimento de gestos via câmera, usando inteligência artificial de visão computacional no lugar do teclado. Fui responsável pela criação do site institucional do jogo (landing page, apresentação da história e da equipe) e pela criação das personagens.
+      </p>
+      <div class="tags">
+        <span class="tag">HTML</span>
+        <span class="tag">CSS</span>
+        <span class="tag">JavaScript</span>
+        <span class="tag">Visão Computacional (IA)</span>
+        <span class="tag">Game Design</span>
+        <span class="tag">Design de Personagens</span>
+        <span class="tag">Trabalho em Equipe</span>
+      </div>
+      <a href="https://github.com/Erikfrvr/Home" target="_blank" rel="noopener" class="project-link">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5C5.73.5.5 5.73.5 12c0 5.09 3.29 9.4 7.86 10.93.58.1.79-.25.79-.56 0-.28-.01-1.02-.02-2-3.2.7-3.88-1.54-3.88-1.54-.53-1.34-1.29-1.7-1.29-1.7-1.05-.72.08-.71.08-.71 1.17.08 1.78 1.2 1.78 1.2 1.03 1.77 2.71 1.26 3.37.96.1-.75.4-1.26.73-1.55-2.55-.29-5.24-1.28-5.24-5.7 0-1.26.45-2.29 1.19-3.09-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.18 1.18a11.05 11.05 0 0 1 5.79 0c2.2-1.49 3.17-1.18 3.17-1.18.64 1.59.24 2.76.12 3.05.74.8 1.19 1.83 1.19 3.09 0 4.43-2.7 5.4-5.27 5.69.42.36.78 1.08.78 2.18 0 1.57-.02 2.84-.02 3.23 0 .31.21.67.8.56A10.52 10.52 0 0 0 23.5 12c0-6.27-5.23-11.5-11.5-11.5Z"/></svg>
+        <span>Ver no GitHub</span>
+      </a>
+    </div>
+
+    <div class="project-card project-card--featured reveal delay-2">
+      <span class="project-badge">Em andamento · Empreenda Senac 2026</span>
+      <div class="project-image-wrap">
+        <div class="project-gallery phone-gallery">
+          <img src="assets/bioshield-inicio.png" alt="Tela inicial do app BioShield, com próxima dose e resumo semanal de adesão" loading="lazy">
+          <img src="assets/bioshield-emergencia.png" alt="Ficha de emergência do BioShield, acessível por QR Code" loading="lazy">
+          <img src="assets/bioshield-remedios.png" alt="Tela de remédios do BioShield, com confirmação de dose" loading="lazy">
+          <img src="assets/bioshield-cuidador.png" alt="Modo Cuidador do BioShield, acompanhando a adesão em tempo real" loading="lazy">
+        </div>
+      </div>
+      <div class="project-meta">
+        <div class="project-name">BioShield — Ficha Médica de Emergência por QR Code</div>
+        <div class="project-role">Empreenda Senac · 19ª Edição · Fase Semifinal · Pesquisa, Negócio &amp; Front-End</div>
+      </div>
+      <p class="project-desc">
+        Projeto em desenvolvimento com um colega de equipe na 19ª edição do Empreenda Senac, atualmente na fase semifinal na categoria Cursos Técnicos. O BioShield é um aplicativo gratuito que transforma o celular em uma ficha médica de emergência acessível por QR Code, com lembretes de medicação e um Modo Cuidador que avisa um familiar quando uma dose atrasa. Validamos o problema com 63 respostas de pesquisa — 87% afirmam que um socorrista não descobriria suas alergias em uma emergência — e testamos um protótipo navegável em React com 7 pessoas, todas dispostas a usar no dia a dia. Sou responsável pela pesquisa de campo, modelagem de negócio, apresentação do projeto e apoio ao desenvolvimento do front-end.
+      </p>
+      <div class="tags">
+        <span class="tag">React</span>
+        <span class="tag">JavaScript</span>
+        <span class="tag">Pesquisa de Usuário</span>
+        <span class="tag">Modelagem de Negócio</span>
+        <span class="tag">QR Code</span>
+        <span class="tag">Validação de Produto</span>
+        <span class="tag">Empreendedorismo</span>
+        <span class="tag">Trabalho em Equipe</span>
+      </div>
+    </div>
+
+    <div class="project-card project-card--featured reveal delay-3">
+      <div class="project-image-wrap">
+        <div class="project-gallery">
+          <img src="assets/barbearia-agendamentos.svg" alt="Mockup ilustrativo: tela de agendamentos do dia no BarberApp" loading="lazy">
+          <img src="assets/barbearia-novo-agendamento.svg" alt="Mockup ilustrativo: formulário de novo agendamento no BarberApp" loading="lazy">
+          <img src="assets/barbearia-servicos.svg" alt="Mockup ilustrativo: tela de serviços cadastrados no BarberApp" loading="lazy">
+        </div>
+      </div>
+      <div class="project-meta">
+        <div class="project-name">BarberApp — Agendamento para Barbearia</div>
+        <div class="project-role">Python · UI · Arquitetura MVC + DAO</div>
+      </div>
+      <p class="project-desc">
+        Aplicativo desktop de agendamento de serviços para barbearia, desenvolvido em Python com o framework Flet. Segue a arquitetura MVC + DAO com persistência em JSON. Interface interativa e responsiva, com fluxo completo de cadastro, listagem e gerenciamento de agendamentos. <em>As telas acima são mockups ilustrativos do fluxo do app, recriados para o portfólio — não são capturas de tela do sistema original.</em>
+      </p>
+      <div class="tags">
+        <span class="tag">Python</span>
+        <span class="tag">Flet</span>
+        <span class="tag">MVC</span>
+        <span class="tag">DAO</span>
+        <span class="tag">JSON</span>
+        <span class="tag">VS Code</span>
+      </div>
+    </div>
+    </div><!-- /projects-grid -->
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- ══ HABILIDADES ══ -->
+  <section>
+    <div class="section-label reveal">Habilidades Técnicas</div>
+    <div class="skills-grid">
+      <div class="skill-card reveal delay-1">
+        <div class="skill-name">Manutenção de Computadores</div>
+        <div class="skill-desc">Diagnóstico, reparo e instalação de SO</div>
+      </div>
+
+      <div class="skill-card reveal delay-2">
+        <div class="skill-name">Infraestrutura de Redes</div>
+        <div class="skill-desc">Cabeamento, TCP/IP e configuração de redes</div>
+      </div>
+
+      <div class="skill-card reveal delay-2">
+        <div class="skill-name">Sistemas Operacionais</div>
+        <div class="skill-desc">Instalação e configuração de Windows, Linux e macOS</div>
+      </div>
+
+      <div class="skill-card reveal delay-2">
+        <div class="skill-name">MySQL</div>
+        <div class="skill-desc">DDL, DML, Procedures, Views, Triggers</div>
+      </div>
+      <div class="skill-card reveal delay-3">
+        <div class="skill-name">Python</div>
+        <div class="skill-desc">Flet, MVC, DAO, JSON persistence</div>
+      </div>
+      <div class="skill-card reveal delay-4">
+        <div class="skill-name">HTML &amp; CSS</div>
+        <div class="skill-desc">Layouts responsivos, animações</div>
+      </div>
+      <div class="skill-card reveal delay-1">
+        <div class="skill-name">Modelagem de Dados</div>
+        <div class="skill-desc">DER, 1NF–3NF, BR Modelo</div>
+      </div>
+      <div class="skill-card reveal delay-2">
+        <div class="skill-name">Segurança</div>
+        <div class="skill-desc">Criptografia AES, integridade de dados</div>
+      </div>
+      <div class="skill-card reveal delay-3">
+        <div class="skill-name">Ferramentas</div>
+        <div class="skill-desc">XAMPP, phpMyAdmin, VS Code, GitHub</div>
+      </div>
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- ══ LINGUAGENS DE PROGRAMAÇÃO ══ -->
+  <section>
+    <div class="section-label reveal">Linguagens de Programação</div>
+    <div class="lang-bars">
+      <div class="lang-bar reveal delay-1">
+        <div class="lang-bar-head">
+          <span class="lang-name">Python</span>
+          <span class="lang-percent">74%</span>
+        </div>
+        <div class="lang-track" role="progressbar" aria-label="Python" aria-valuenow="74" aria-valuemin="0" aria-valuemax="100">
+          <div class="lang-fill" style="--target:74%"></div>
+        </div>
+      </div>
+
+      <div class="lang-bar reveal delay-1">
+        <div class="lang-bar-head">
+          <span class="lang-name">JavaScript</span>
+          <span class="lang-percent">68%</span>
+        </div>
+        <div class="lang-track" role="progressbar" aria-label="JavaScript" aria-valuenow="68" aria-valuemin="0" aria-valuemax="100">
+          <div class="lang-fill" style="--target:68%"></div>
+        </div>
+      </div>
+
+      <div class="lang-bar reveal delay-2">
+        <div class="lang-bar-head">
+          <span class="lang-name">TypeScript</span>
+          <span class="lang-percent">57%</span>
+        </div>
+        <div class="lang-track" role="progressbar" aria-label="TypeScript" aria-valuenow="57" aria-valuemin="0" aria-valuemax="100">
+          <div class="lang-fill" style="--target:57%"></div>
+        </div>
+      </div>
+
+      <div class="lang-bar reveal delay-2">
+        <div class="lang-bar-head">
+          <span class="lang-name">HTML</span>
+          <span class="lang-percent">80%</span>
+        </div>
+        <div class="lang-track" role="progressbar" aria-label="HTML" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
+          <div class="lang-fill" style="--target:80%"></div>
+        </div>
+      </div>
+
+      <div class="lang-bar reveal delay-3">
+        <div class="lang-bar-head">
+          <span class="lang-name">CSS</span>
+          <span class="lang-percent">63%</span>
+        </div>
+        <div class="lang-track" role="progressbar" aria-label="CSS" aria-valuenow="63" aria-valuemin="0" aria-valuemax="100">
+          <div class="lang-fill" style="--target:63%"></div>
+        </div>
+      </div>
+
+      <div class="lang-bar reveal delay-3">
+        <div class="lang-bar-head">
+          <span class="lang-name">Java</span>
+          <span class="lang-percent">46%</span>
+        </div>
+        <div class="lang-track" role="progressbar" aria-label="Java" aria-valuenow="46" aria-valuemin="0" aria-valuemax="100">
+          <div class="lang-fill" style="--target:46%"></div>
+        </div>
+      </div>
+
+      <div class="lang-bar reveal delay-4">
+        <div class="lang-bar-head">
+          <span class="lang-name">Node.js</span>
+          <span class="lang-percent">46%</span>
+        </div>
+        <div class="lang-track" role="progressbar" aria-label="Node.js" aria-valuenow="46" aria-valuemin="0" aria-valuemax="100">
+          <div class="lang-fill" style="--target:46%"></div>
+        </div>
+      </div>
+
+      <div class="lang-bar reveal delay-4">
+        <div class="lang-bar-head">
+          <span class="lang-name">React Native</span>
+          <span class="lang-percent">46%</span>
+        </div>
+        <div class="lang-track" role="progressbar" aria-label="React Native" aria-valuenow="46" aria-valuemin="0" aria-valuemax="100">
+          <div class="lang-fill" style="--target:46%"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- ══ EDUCAÇÃO ══ -->
+  <section>
+    <div class="section-label reveal">Formação</div>
+    <div class="timeline reveal delay-1">
+      <div class="tl-item">
+        <div class="tl-dot"></div>
+        <div class="tl-title">Técnico em Informática</div>
+        <div class="tl-place">SENAC SP</div>
+        <div class="tl-period">2024 – Em andamento</div>
+      </div>
+      <div class="tl-item">
+        <div class="tl-dot"></div>
+        <div class="tl-title">Ensino Médio</div>
+        <div class="tl-place">Escola Estadual</div>
+        <div class="tl-period">Concluído</div>
+      </div>
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- ══ IDIOMAS & INFO ══ -->
+  <section>
+    <div class="section-label reveal">Informações Complementares</div>
+    <div class="grid-2">
+      <div class="card reveal-left delay-1">
+        <div class="card-title">Idiomas</div>
+        <div class="tags" style="margin-top:12px">
+          <span class="tag">Português (nativo)</span>
+          <span class="tag">Inglês (Básico)</span>
+        </div>
+      </div>
+      <div class="card reveal-right delay-2">
+        <div class="card-title">Soft Skills</div>
+        <div class="tags" style="margin-top:12px">
+          <span class="tag">Trabalho em equipe</span>
+          <span class="tag">Proatividade</span>
+          <span class="tag">Atenção a detalhes</span>
+          <span class="tag">Aprendizado contínuo</span>
+          <span class="tag">Comunicação</span>
+          <span class="tag">Adaptabilidade</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <footer>
+    Feito por <span>Daiane Duarte</span> · São Paulo, SP – 2026
+  </footer>
+
+</div><!-- /wrapper -->
+
+<!-- ══ LIGHTBOX ══ -->
+<div class="lightbox" id="lightbox">
+  <div class="lightbox-content">
+    <button class="lightbox-close" id="lightboxClose" aria-label="Fechar imagem">&times;</button>
+    <img id="lightboxImg" src="" alt="">
+    <div class="lightbox-caption" id="lightboxCaption"></div>
+  </div>
+</div>
+
+<script>
+  const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+  /* Reaparecimento suave ao rolar */
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('visible');
+      }
+    });
+  }, { threshold: 0.12, rootMargin: '0px 0px -40px 0px' });
+
+  document.querySelectorAll('.reveal, .reveal-left, .reveal-right')
+    .forEach(el => observer.observe(el));
+
+  /* Anima o preenchimento das barras de linguagens quando entram na tela */
+  const langObserver = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        const fill = entry.target.querySelector('.lang-fill');
+        if (fill) fill.classList.add('filled');
+        langObserver.unobserve(entry.target);
+      }
+    });
+  }, { threshold: 0.4 });
+
+  document.querySelectorAll('.lang-bar').forEach(el => langObserver.observe(el));
+
+  /* Botão de baixar currículo: abre a caixa de impressão para salvar como PDF */
+  document.getElementById('downloadCvBtn')?.addEventListener('click', () => {
+    window.print();
+  });
+
+  /* Lightbox: amplia as imagens dos projetos ao clicar */
+  const lightbox = document.getElementById('lightbox');
+  const lightboxImg = document.getElementById('lightboxImg');
+  const lightboxCaption = document.getElementById('lightboxCaption');
+  const lightboxClose = document.getElementById('lightboxClose');
+
+  const openLightbox = (src, alt) => {
+    lightboxImg.src = src;
+    lightboxImg.alt = alt || '';
+    lightboxCaption.textContent = alt || '';
+    lightbox.classList.add('active');
+    document.body.style.overflow = 'hidden';
+  };
+
+  const closeLightbox = () => {
+    lightbox.classList.remove('active');
+    document.body.style.overflow = '';
+  };
+
+  document.querySelectorAll('.project-image, .project-gallery img').forEach(img => {
+    img.addEventListener('click', () => openLightbox(img.currentSrc || img.src, img.alt));
+  });
+
+  lightboxClose?.addEventListener('click', closeLightbox);
+  lightbox?.addEventListener('click', (e) => {
+    if (e.target === lightbox) closeLightbox();
+  });
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape' && lightbox.classList.contains('active')) closeLightbox();
+  });
+
+  /* Gera as "estrelas" cintilantes de fundo */
+  const particlesRoot = document.getElementById('bgParticles');
+  if (particlesRoot) {
+    const count = window.innerWidth < 700 ? 24 : 50;
+    const frag = document.createDocumentFragment();
+    for (let i = 0; i < count; i++) {
+      const p = document.createElement('span');
+      p.className = 'particle';
+      const size = 1 + Math.random() * 2.4;
+      p.style.width = size + 'px';
+      p.style.height = size + 'px';
+      p.style.top = Math.random() * 100 + '%';
+      p.style.left = Math.random() * 100 + '%';
+      p.style.setProperty('--dur', (3 + Math.random() * 5) + 's');
+      p.style.setProperty('--delay', (Math.random() * 5) + 's');
+      frag.appendChild(p);
+    }
+    particlesRoot.appendChild(frag);
+  }
+
+  /* Cascata automática dentro de grades (skills, timeline, grid-2) */
+  document.querySelectorAll('.skills-grid, .timeline, .grid-2').forEach(container => {
+    Array.from(container.children).forEach((el, i) => {
+      el.style.transitionDelay = (i * 65) + 'ms';
+    });
+  });
+
+  /* Barra de progresso de leitura + botão de voltar ao topo (sempre ativos) */
+  const progressBar = document.getElementById('scrollProgressBar');
+  const scrollCue = document.getElementById('scrollCue');
+  const backToTop = document.getElementById('backToTop');
+  const blobs = [document.getElementById('blob1'), document.getElementById('blob2'), document.getElementById('blob3')];
+
+  const onScroll = () => {
+    const scrollTop = window.scrollY;
+    const docHeight = document.documentElement.scrollHeight - window.innerHeight;
+    const pct = docHeight > 0 ? (scrollTop / docHeight) * 100 : 0;
+
+    if (progressBar) progressBar.style.width = pct + '%';
+    if (scrollCue) scrollCue.style.opacity = Math.max(0, 1 - scrollTop / 180);
+    if (backToTop) backToTop.classList.toggle('show', scrollTop > 420);
+
+    if (!prefersReducedMotion) {
+      const hue = scrollTop * 0.08;
+      blobs.forEach((blob, i) => {
+        if (blob) blob.style.filter = `blur(100px) hue-rotate(${hue * (i % 2 === 0 ? 1 : -1)}deg)`;
+      });
+    }
+  };
+
+  window.addEventListener('scroll', onScroll, { passive: true });
+  onScroll();
+
+  backToTop?.addEventListener('click', () => {
+    window.scrollTo({ top: 0, behavior: prefersReducedMotion ? 'auto' : 'smooth' });
+  });
+
+  /* Spotlight + leve inclinação 3D seguindo o cursor nos cards (desativado com reduced motion) */
+  if (!prefersReducedMotion) {
+    const tiltTargets = document.querySelectorAll('.card, .project-card, .skill-card');
+    tiltTargets.forEach(el => {
+      el.addEventListener('mousemove', (e) => {
+        const rect = el.getBoundingClientRect();
+        const x = e.clientX - rect.left;
+        const y = e.clientY - rect.top;
+        const px = (x / rect.width) * 100;
+        const py = (y / rect.height) * 100;
+        const rx = ((x / rect.width) - 0.5) * 10;
+        const ry = ((y / rect.height) - 0.5) * -10;
+
+        el.style.setProperty('--mx', px + '%');
+        el.style.setProperty('--my', py + '%');
+        el.style.setProperty('--rx', rx + 'deg');
+        el.style.setProperty('--ry', ry + 'deg');
+      });
+
+      el.addEventListener('mouseleave', () => {
+        el.style.setProperty('--rx', '0deg');
+        el.style.setProperty('--ry', '0deg');
+      });
+    });
+  }
+</script>
+
+</body>
+</html>

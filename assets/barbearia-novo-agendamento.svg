@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 650" font-family="'Segoe UI', Arial, sans-serif">
+  <rect width="900" height="650" fill="#12172a"/>
+
+  <!-- Top bar -->
+  <rect x="0" y="0" width="900" height="56" fill="#1f2738"/>
+  <rect x="20" y="16" width="24" height="24" rx="6" fill="#f2a154"/>
+  <text x="54" y="33" font-size="18" font-weight="700" fill="#e8ecf4">BarberApp</text>
+  <circle cx="854" cy="28" r="14" fill="#3a4560"/>
+  <text x="824" y="33" font-size="13" fill="#8a93ab" text-anchor="end">Diego</text>
+
+  <!-- Sidebar -->
+  <rect x="0" y="56" width="200" height="594" fill="#1a2030"/>
+  <line x1="200" y1="56" x2="200" y2="650" stroke="#2a3348" stroke-width="1"/>
+
+  <rect x="0" y="80" width="4" height="40" fill="#f2a154"/>
+  <text x="32" y="105" font-size="14" font-weight="700" fill="#f2a154">Agendamentos</text>
+
+  <text x="32" y="157" font-size="14" fill="#8a93ab">Clientes</text>
+  <text x="32" y="209" font-size="14" fill="#8a93ab">Serviços</text>
+  <text x="32" y="261" font-size="14" fill="#8a93ab">Barbeiros</text>
+  <text x="32" y="313" font-size="14" fill="#8a93ab">Relatórios</text>
+
+  <!-- Backdrop dim -->
+  <rect x="200" y="56" width="700" height="594" fill="#0a0e1a" fill-opacity="0.55"/>
+
+  <!-- Form card -->
+  <rect x="280" y="110" width="540" height="480" rx="16" fill="#1a2030" stroke="#2a3348"/>
+  <text x="310" y="152" font-size="22" font-weight="700" fill="#e8ecf4">Novo Agendamento</text>
+  <line x1="778" y1="136" x2="790" y2="148" stroke="#8a93ab" stroke-width="2"/>
+  <line x1="790" y1="136" x2="778" y2="148" stroke="#8a93ab" stroke-width="2"/>
+
+  <!-- Cliente -->
+  <text x="310" y="192" font-size="12" fill="#8a93ab">CLIENTE</text>
+  <rect x="310" y="200" width="480" height="44" rx="10" fill="#12172a" stroke="#2a3348"/>
+  <text x="328" y="228" font-size="14" fill="#e8ecf4">Carlos Eduardo</text>
+  <path d="M772 216 l8 8 l8 -8" stroke="#8a93ab" stroke-width="2" fill="none"/>
+
+  <!-- Serviço -->
+  <text x="310" y="272" font-size="12" fill="#8a93ab">SERVIÇO</text>
+  <rect x="310" y="280" width="480" height="44" rx="10" fill="#12172a" stroke="#2a3348"/>
+  <text x="328" y="308" font-size="14" fill="#e8ecf4">Corte + Barba — 45 min — R$ 55,00</text>
+  <path d="M772 296 l8 8 l8 -8" stroke="#8a93ab" stroke-width="2" fill="none"/>
+
+  <!-- Barbeiro / Data -->
+  <text x="310" y="352" font-size="12" fill="#8a93ab">BARBEIRO</text>
+  <rect x="310" y="360" width="232" height="44" rx="10" fill="#12172a" stroke="#2a3348"/>
+  <text x="328" y="388" font-size="14" fill="#e8ecf4">Diego</text>
+  <path d="M524 376 l8 8 l8 -8" stroke="#8a93ab" stroke-width="2" fill="none"/>
+
+  <text x="558" y="352" font-size="12" fill="#8a93ab">DATA</text>
+  <rect x="558" y="360" width="232" height="44" rx="10" fill="#12172a" stroke="#2a3348"/>
+  <text x="576" y="388" font-size="14" fill="#e8ecf4">23/09/2026</text>
+
+  <!-- Horário -->
+  <text x="310" y="432" font-size="12" fill="#8a93ab">HORÁRIO</text>
+  <rect x="310" y="440" width="232" height="44" rx="10" fill="#12172a" stroke="#2a3348"/>
+  <text x="328" y="468" font-size="14" fill="#e8ecf4">09:00</text>
+
+  <!-- Buttons -->
+  <rect x="310" y="510" width="232" height="46" rx="23" fill="none" stroke="#2a3348"/>
+  <text x="426" y="538" font-size="13" font-weight="600" fill="#8a93ab" text-anchor="middle">Cancelar</text>
+
+  <rect x="558" y="510" width="232" height="46" rx="23" fill="#f2a154"/>
+  <text x="674" y="538" font-size="13" font-weight="700" fill="#161c2b" text-anchor="middle">Salvar Agendamento</text>
+</svg>
